@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/newContent"
+        android:icon="@drawable/new_content"
+        android:title="@string/new_content"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title="@string/delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/logOut"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        android:orderInCategory="2" />
+
+</menu>

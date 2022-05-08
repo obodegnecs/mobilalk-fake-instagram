@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "210542710498",
+    "project_id": "inspigram-8f286",
+    "storage_bucket": "inspigram-8f286.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210542710498:android:7de7d6df4f7112128c98bb",
+        "android_client_info": {
+          "package_name": "com.example.inspigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210542710498-m4huhetrvk1mjpt3rslrt6ji38n3mie8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inspigram",
+            "certificate_hash": "547f6725f553eee873b552554e716b10f47382ea"
+          }
+        },
+        {
+          "client_id": "210542710498-cjf821kbfkeu66tjndu8pjd5o8gm9mjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPH4Bv1n-DWo-qgnz2wIVN-MPCNH17r0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210542710498-cjf821kbfkeu66tjndu8pjd5o8gm9mjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

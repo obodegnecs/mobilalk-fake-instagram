@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Inspigram</string>
+    <string name="email">Email cím</string>
+    <string name="password">Jelszó</string>
+    <string name="log_in">Bejelentkezés</string>
+    <string name="sing_in">Regisztráció</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password_confirm">Jelszó újra</string>
+    <string name="cancel">Mégse</string>
+    <string name="date_of_born">Születési dátum</string>
+    <string name="google_log_in">Bejelentkezés Google fiókkal</string>
+    <string name="comment">Írj kommentet...</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="new_content">New Content</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="settings">Beállítások</string>
+    <string name="comments">Komment</string>
+    <string name="makePhoto">Kép készítése</string>
+    <string name="happy">Ma jó kedvem van! :)</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="userNames">
+        <item>NorikaVokCs</item>
+        <item>42yncT42k</item>
+        <item>Kedves_Ferenc</item>
+        <item>bicskei4csendes</item>
+        <item>Mr.Korrelaciosegyutthato</item>
+        <item>megleszatargy_idovel</item>
+        <item>iStHiSrEgUlAr</item>
+        <item>pumpa_lol_emma</item>
+        <item>TheRealSzaboT</item>
+        <item>SysTrigger</item>
+    </string-array>
+
+    <string-array name="comments">
+        <item>Jó kép!</item>
+        <item>Nice</item>
+        <item>Ez már valami!</item>
+        <item>Wow</item>
+        <item>Ez a tied?</item>
+        <item>Very nice</item>
+        <item>Szép ez a hely nagyon</item>
+        <item>Nagyon szép</item>
+        <item>Nagyon jó képeket csinálsz!</item>
+        <item>:)</item>
+    </string-array>
+
+    <array name="profilePictures">
+        <item>@drawable/profile_picture2</item>
+        <item>@drawable/profile_picture</item>
+        <item>@drawable/profil_picture3</item>
+        <item>@drawable/profil_picture4</item>
+        <item>@drawable/profile_picture</item>
+        <item>@drawable/profile_picture5</item>
+        <item>@drawable/profil_picture6</item>
+        <item>@drawable/profil_picture7</item>
+        <item>@drawable/profile_picture</item>
+        <item>@drawable/profil_picture8</item>
+    </array>
+
+    <array name="contentImages">
+        <item>@drawable/content_image2</item>
+        <item>@drawable/content_image3</item>
+        <item>@drawable/content_image4</item>
+        <item>@drawable/content_image5</item>
+        <item>@drawable/content_image6</item>
+        <item>@drawable/content_image7</item>
+        <item>@drawable/content_image8</item>
+        <item>@drawable/content_image9</item>
+        <item>@drawable/content_image10</item>
+        <item>@drawable/content_image11</item>
+    </array>
+
+</resources>

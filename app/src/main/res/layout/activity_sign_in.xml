@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@mipmap/color"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@mipmap/insta" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin"
+        android:hint="@string/username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin"
+        android:hint="@string/password_confirm"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/sing_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin"
+        android:background="@drawable/rounded_corner_view"
+        android:text="@string/sing_in"
+        android:onClick="singIn"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/left_right_margin"
+        android:layout_marginRight="@dimen/left_right_margin"
+        android:background="@drawable/rounded_corner_view"
+        android:text="@string/cancel"
+        android:onClick="cancel"/>
+
+</LinearLayout>
